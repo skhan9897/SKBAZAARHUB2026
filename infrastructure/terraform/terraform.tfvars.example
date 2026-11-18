@@ -1,0 +1,7 @@
+aws_region         = "ap-south-1"
+project_name       = "sk-bazaarhub"
+environment        = "dev"
+db_name            = "bazaarhub"
+db_username        = "bazaar_app"
+allowed_admin_cidr = "REPLACE_WITH_YOUR_TRUSTED_IP/32"
+# Provide db_password securely via TF_VAR_db_password, not in this file.

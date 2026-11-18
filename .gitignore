@@ -1,0 +1,14 @@
+target/
+**/target/
+.env
+*.log
+.idea/
+.vscode/
+.gradle/
+build/
+.DS_Store
+terraform/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
